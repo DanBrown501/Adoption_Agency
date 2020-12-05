@@ -9,7 +9,7 @@ from forms import AddPetForm, EditPetForm
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = "abcdef"
+app.config['SECRET_KEY'] = "Batya1"
 
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql:///adopt"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
